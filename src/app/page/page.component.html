@@ -1,0 +1,20 @@
+<div *ngIf="page$ | async as page" [ngClass]="getPageTheme(page)">
+  <h1 class="page-title" *ngIf="page.title">
+    {{ page.title }}
+  </h1>
+  <div class="page-text" *ngIf="page.text">
+    <div class="page-text-bloc" *ngFor="let text of page.text">
+      {{ text }}
+    </div>
+  </div>
+  <div class="page-picture" *ngIf="page.picture">
+    <img [src]="formatPicturePath(page.picture)" [width]="page.picture.width" />
+  </div>
+  <div class="page-question">{{ page.question }}</div>
+</div>
+<footer *ngIf="page$ | async as page">
+  <button *ngFor="let answer of page.answers"
+          mat-raised-button color="accent" (click)="onAnswerClick(answer)">
+    {{ answer.label }}
+  </button>
+</footer>

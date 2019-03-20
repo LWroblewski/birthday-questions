@@ -1,0 +1,324 @@
+[
+  {
+    "index": "reveil",
+    "title": "Brusque reveil",
+    "text": [
+      "Tu te réveilles en sursaut. Pourtant, la chambre est sombre, et Laurent dort à poings fermés à tes côtés.",
+      "Un bruit au pied du lit te fait sursauter, et une masse sombre vient se nicher sur ton ventre. Tu pousses un cri stridant, et tentes de te dégager de la couette...",
+      "...Quand tu te rends compte, au profit d'un vague rai de lumière, qu'une chouette blanche te regarde fixement!",
+      "Comment est-ce possible? Comment a t'elle pu entrer, et pourquoi semble t'elle vouloir attirer ton attention?"
+    ],
+    "picture": {
+      "path": "owl.png",
+      "width": 70
+    },
+    "question": "Comment réagis-tu?",
+    "answers": [
+      {
+        "label": "L'observer",
+        "redirect": "owl-check"
+      }, {
+        "label": "La frapper",
+        "redirect": "owl-beat"
+      }
+    ]
+  },
+  {
+    "index": "owl-check",
+    "title": "Une chouette?",
+    "text": [
+      "Alors que tu approches avec précaution ta tête de la mystérieuse chouette, tu aperçois que celle-ci tient quelque chose entre ses serres.",
+      "Avant d'avoir pu faire un quelque geste, l'oiseau s'approche de toi, et dépose au creux de la couette un mystérieux objet...",
+      "Une lettre!!??",
+      "Sans crier gare, la chouette s'envole dans un battement d'ailes effréné, et disparait, te laissant seule avec ce mystérieux présent."
+    ],
+    "picture": {
+      "path": "envelop.png",
+      "width": 120
+    },
+    "question": "Que faire...",
+    "answers": [
+      {
+        "label": "L'ouvrir",
+        "redirect": "letter-open"
+      }, {
+        "label": "Réveiller Laurent",
+        "redirect": "laurent-wake"
+      }
+    ]
+  },
+  {
+    "index": "owl-beat",
+    "title": "Une chouette?",
+    "text": [
+      "Bien que cela ne te ressemble pas, tu lèves ton poing pour frapper la chouette, pour l'obliger à fuire.",
+      "Sans crier gare, celle-ci s'envole, non sans avoir lâché au préalable un objet sur le lit...",
+      "Une lettre!!??",
+      "Dans quel monde une chouette vient-elle apporter des lettres au beau milieu de la nuit... ?"
+    ],
+    "picture": {
+      "path": "envelop.png",
+      "width": 120
+    },
+    "question": "Que faire...",
+    "answers": [
+      {
+        "label": "L'ouvrir",
+        "redirect": "letter-open"
+      }, {
+        "label": "Réveiller Laurent",
+        "redirect": "laurent-wake"
+      }
+    ]
+  },
+  {
+    "index": "laurent-wake",
+    "title": "Laurent",
+    "text": [
+      "Tu te tournes vers Laurent, qui semble profondément assoupi. Tu tentes tant bien que mal de le réveiller, mais rien n'y fait, tes efforts semblent tous vains.",
+      "L'inquiétude te gagne peu à peu. En effet, un tel sommeil ne paraît pas naturel, et ton ami est généralement prompt à se réveiller.",
+      "En désespoir de cause, tu te tournes vers la lettre lâchée par la chouette..."
+    ],
+    "answers": [
+      {
+        "label": "Lire la lettre",
+        "redirect": "letter-open"
+      }
+    ]
+  },
+  {
+    "index": "letter-open",
+    "title": "La lettre",
+    "text": [
+      "La lettre semble très ancienne, le papier rugueux et abîmé menace de s'effriter à chacun de tes gestes.",
+      "En retournant précautionneusement l'enveloppe, tu aperçois, inscrit en écriture manuscrite, un seul et unique mot:",
+      "'HUMERY'",
+      "Sous la surprise, ton pouls s'accélère, et c'est fébrilement que tu t'escrimes à ouvrir l'enveloppe et à y retirer l'unique feuille qu'elle contient..."
+    ],
+    "question": "Gagné: Mystérieuse lettre",
+    "answers": [
+      {
+        "label": "Lire",
+        "redirect": "letter-read"
+      }
+    ]
+  },
+  {
+    "index": "letter-read",
+    "title": "L'invitation",
+    "text": [
+      "Collège de Poudlard, école de sorcellerie",
+      "Directeur: Albus Dumbledore",
+      "Commandeur du Grand-Ordre de Merlin",
+      "Docteur ès Sorcellerie, Enchanteur-en-chef, Manitou suprême de la Confédération internationale des Mages et Sorciers",
+      "Chère Mme Humery,",
+      "Nous avons le plaisir de vous informer que vous bénéficiez d'ores et déjà d'une inscription au collège Poudlard. Vous trouverez ci-joint la liste des ouvrages et équipements nécessaires au bon déroulement de votre scolarité.",
+      "La rentrée étant fixée au 1er septembre, nous attendrons votre hibou le 31 juillet au plus tard.",
+      "Veuillez croire, chère Mme Humery, en l'expression de nos sentiments distingués.",
+      "Minerva McGonagall",
+      "Directrice-adjointe"
+    ],
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "letter-read-after"
+      }
+    ],
+    "theme": "main-letter"
+  },
+  {
+    "index": "letter-read-after",
+    "title": "Revelation",
+    "text": [
+      "'Je nage en plein délire'",
+      "Cette phrase reflète la seule conclusion plausible à cette situation toute droit tirée d'un mauvais plagiat d'Harry Potter.",
+      "Pourtant rien n'y fait. Rien ne semble vouloir t'extirper de ce rêve qui te paraît si réel... Et si désiré également.",
+      "Soudain, des aboiements se font entendre au dehors, bientôt suivis d'un gros vacarme et de bruits de pas dans la maison..."
+    ],
+    "question": "Que décides-tu?",
+    "answers": [
+      {
+        "label": "Aller voir",
+        "redirect": "noise-go"
+      }, {
+        "label": "Me cacher",
+        "redirect": "noise-hide"
+      }
+    ]
+  },
+  {
+    "index": "noise-hide",
+    "title": "Rencontre",
+    "text": [
+      "Ta chambre se révèle avare en recoins et cachettes fiables, si bien que tu ne tardes pas à jeter ton dévolu sur l'unique endroit viable : le lit.",
+      "Tu tentes tant bien que mal de t'engouffrer sous celui-ci, quand la porte de la chambre s'ouvre brusquement, révélant le mystérieux intrus, que tu reconnais aussitôt :",
+      "'Jacques, vous exclamez-vous, mais que venez-vous faire chez moi à une heure pareille?'",
+      "Ton voisin, d'ordinaire affable, semble déterminé, bien que profondément secoué:",
+      "'L'heure n'est pas à la discussion ma petite, il va falloir me suivre tout de suite, les explications arriveront bien assez tôt!'",
+      "Jacques n'a que le temps de faire volte face quand vous entendez un fracas assourdissant dans le salon..."
+    ],
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "noise-bis"
+      }
+    ]
+  },
+  {
+    "index": "noise-go",
+    "title": "Rencontre",
+    "text": [
+      "Avec un courage et une détermination que tu serais bien incapable d'expliquer, tu bondis hors du lit pour te rendre dans le salon.",
+      "Cependant, à peine arrivé dans le couloir, quelle n'est pas ta surprise en reconnaissant le mystérieux intrus!",
+      "'Jacques, vous exclamez-vous, mais que venez-vous faire chez moi à une heure pareille?'",
+      "Ton voisin, d'ordinaire affable, semble déterminé, bien que profondément secoué:",
+      "'L'heure n'est pas à la discussion ma petite, il va falloir me suivre tout de suite, les explications arriveront bien assez tôt!'",
+      "Jacques n'a que le temps de faire volte face quand vous entendez un fracas assourdissant dans le salon..."
+    ],
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "noise-bis"
+      }
+    ]
+  },
+  {
+    "index": "noise-bis",
+    "title": "Fuite",
+    "text": [
+      "L'effroi s'imprime sur les traits marqués de Jacques, quand il s'adresse à toi:",
+      "'Les choses se précipitent... Décidemment, ces bêtises ne sont plus de mon âge... Tiens, prends donc ceci, ça te protégera un moment de ces maudits démons!'",
+      "Sur ce, il te lance un objet qui atterrit lestement dans tes mains. Tu n'as que le temps de voir briévement un bracelet étinceler au creux de ta main, quand Jacques rajoute:",
+      "'Ne traîne pas petite niquedouille, tu n'as vraiment pas envie de les voir ceux-là!'",
+      "Il n'a que le temps de finir cette dernière phrase qu'une une ombre se détache dans le couloir, juste derrière lui..."
+    ],
+    "question": "Gagné: Mystérieux bracelet",
+    "answers": [
+      {
+        "label": "Aider Jacques",
+        "redirect": "jacques-help"
+      }, {
+        "label": "Fuir",
+        "redirect": "jacques-run"
+      }
+    ]
+  },
+  {
+    "index": "jacques-help",
+    "title": "Confrontation",
+    "text": [
+      "Ne voulant pas laisser ton voisin seul, tu te campes à ses côtés, quand le monde semble soudainement s'écrouler autour de toi.",
+      "Tu tombes lourdement à genoux, submergé par une vague incontrôlable de désespoir et de tristesse, comme si toutes les douleurs et les peines vécues se rappelaient à ton bon souvenir.",
+      "Finalement, tu redresses difficilement la tête, pour te retrouver nez à nez avec une longue silhouette drapée.",
+      "Celle-ci flotte négligemment au-dessus de toi, et ce qui semble être son visage s'approche de toi...",
+      "A la place de la bouche, un orifice insondable semble prêt à t'engloutir tout entier..."
+    ],
+    "picture": {
+      "path": "dementor.png",
+      "width": 80
+    },
+    "question": "Que faire?",
+    "answers": [
+      {
+        "label": "Brandir le bracelet",
+        "redirect": "dementor-bracelet"
+      }, {
+        "label": "Coup de poing",
+        "redirect": "dementor-fight"
+      }
+    ]
+  },
+  {
+    "index": "dementor-bracelet",
+    "title": "Patronum",
+    "text": [
+      "Alors que la figure encapuchonnée s'approche de toi, tu trouves la présence d'esprit de brandir le bracelet que Jacques t'avait donné peu de temps avant.",
+      "L'effet est saisissant : au contact de la créature décharnée, le bracelet se met à luire intensément, comme s'il reconnaissait l'abjecte créature et agissait de son propre gré.",
+      "Du bracelet émerge alors une silhouette translucide, qui n'est pas sans te rappeler l'apparence d'uun chat, Plume même plus précisement."
+    ],
+    "picture": {
+      "path": "patronum.png",
+      "width": 120
+    },
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "dementor-bracelet-bis"
+      }
+    ]
+  },
+  {
+    "index": "dementor-bracelet-bis",
+    "title": "Patronum",
+    "text": [
+      "Au contact de cette apparition, la créature hurle, comme brûlée par cet intense halo de lumière, et fait prestement demi-tour, poursuivie par l'apparition féline.",
+      "Le calme envahit alors la maison, comme si la créature et le félin n'avaient été qu'un produit de ta fertile imagination.",
+      "Seule la présence de Jacques, étendu à ton côté, te rappelle à la réalité.",
+      "'Jacques, dis-tu en le secouant, réveillez-vous, dites-moi donc ce qu'il se passe!",
+      "Celui-ci émerge finalement, bien que la pâleur de son visage te fasse craindre le pire quant à son état de santé.",
+      "'Ce que tu as vu... Un détraqueur, une abomination qui se nourrit de joie et de bonheur, et qui te laisse seul avec tes peurs et tes frayeurs... Je les déteste, je les déteste...'",
+      "'Et ce qu'il l'a fait fuir... C'est un patronum. Ton patronum. De la magie ma petite fille.'"
+    ],
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "magic"
+      }
+    ]
+  },
+  {
+    "index": "magic",
+    "title": "Magie??!!",
+    "text": [
+      "La révélation te laisse sans voix. Jacques en profite pour se relever, péniblement, et te confie alors ces mots :",
+      "\"Le bracelet n'a fait qu'utiliser la source de magie qui réside en toi... Je n'aurais jamais pu faire de même, je ne suis qu'un vieux moldu rabougri...\"",
+      "\"Cela fait un bout de temps que je te surveille. Normalement, seuls les plus jeunes sont autorisés à étudier la magie à Poudlard... Mais même un âne bâté comme Dumbledore peut changer d'avis finalement!\"",
+      "Une foule de questions se presse à tes lèvres, et Jacques semble s'en apercevoir, car il rétorque avec véhémence :",
+      "\"Mais ce n'est ni le lieu, ni le moment pour parler de tout ça. En restant ici, tu mets en danger tes proches, ainsi que toi-même. Suis-moi donc, sans discuter!\"",
+      "\"Mais... Ma famille, mes amis, Laurent? Je ne peux pas les laisser ainsi!\""
+    ],
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "magic-bis"
+      }
+    ]
+  },
+  {
+    "index": "magic-bis",
+    "title": "Magie??!!",
+    "text": [
+      "\"Ta famille et tes amis iront bien, ne t'inquiète pas... Quant à ton ami moldu... Il va bien. Il a été mis au courant de la situation.\"",
+      "\"D'ailleurs, je vois qu'il a tenu à t'adresser ses propres encouragements, dis Jacques, un sourire en coin, en montrant une de tes poches du doigt.\"",
+      "Sans comprendre, tu glisses ta main dans celle-ci, et en retire un objet qui se révèle être un collier. La réplique même du bracelet qui vient de te sauver la vie.",
+      "\"Mais, comment???, commences-tu à balbutier...\"",
+      "\"Un cadeau de sa part, mais pas n'importe quel cadeau. Il a beau être moldu, ton ami t'a sûrement offert le plus beau cadeau qui soit. \""
+    ],
+    "question": "Gagné: Mystérieux collier",
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "gift"
+      }
+    ]
+  },
+  {
+    "index": "gift",
+    "title": "Un cadeau",
+    "text": [
+      "Dans ta main, le collier semble chaud, comme s'il essayait de te réconforter.",
+      "\"Ce collier est ensorcelé. Mais pas n'importe comment, et ton ami ne le sait probablement pas.\"",
+      "\"Un sortilège d'amour. Ce bijou est imprégné de son amour envers toi. Probablement la plus belle magie en ce bas monde.\"",
+      "Réconforté par ses mots, tu glisses précotionneusement le collier autour de ton cou, et emboîtes le pas à ton mystérieux voisin.",
+      "\"Et maintenant, que fait-on?\"",
+      "\"N'ai je pas été assez clair, te répond t'il d'un air malicieux, on se met en route!\"",
+      "\" Pour aller où? \"",
+      "\" A l'école Fred, à l'école de POUDLARD! \""
+    ],
+    "picture": {
+      "path": "hogwarts.png",
+      "width": 180
+    },
+    "question": "BON ANNIVERSAIRE :)"
+  }
+]
