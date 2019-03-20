@@ -9,6 +9,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {PageModule} from './page/page.module';
 import {SharedModule} from './shared/shared.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {SharedModule} from './shared/shared.module';
     HttpClientModule,
     HomeModule,
     PageModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     { provide: URL_PAGES, useValue: environment.urlPages }
