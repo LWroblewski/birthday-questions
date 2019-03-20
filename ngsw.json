@@ -1,0 +1,94 @@
+{
+  "configVersion": 1,
+  "timestamp": 1553111256433,
+  "index": "https://LWroblewski.github.io/birthday-questions/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://LWroblewski.github.io/birthday-questions/es2015-polyfills.c5dd28b362270c767b34.js",
+        "https://LWroblewski.github.io/birthday-questions/favicon.ico",
+        "https://LWroblewski.github.io/birthday-questions/index.html",
+        "https://LWroblewski.github.io/birthday-questions/main.98ce4cdc043bedd4e75d.js",
+        "https://LWroblewski.github.io/birthday-questions/polyfills.8bbb231b43165d65d357.js",
+        "https://LWroblewski.github.io/birthday-questions/runtime.26209474bfa8dc87a77c.js",
+        "https://LWroblewski.github.io/birthday-questions/styles.ed2421851758fb3c03a3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://LWroblewski.github.io/birthday-questions/Fragmentcore.a948d28f5f6dc3c00036.otf",
+        "https://LWroblewski.github.io/birthday-questions/assets/fonts/Fragmentcore.otf",
+        "https://LWroblewski.github.io/birthday-questions/assets/fonts/party.ttf",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-128x128.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-144x144.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-152x152.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-192x192.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-384x384.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-512x512.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-72x72.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-96x96.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/pages/pages.json",
+        "https://LWroblewski.github.io/birthday-questions/assets/pictures/dementor.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/pictures/envelop.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/pictures/hogwarts.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/pictures/owl.png",
+        "https://LWroblewski.github.io/birthday-questions/assets/pictures/patronum.png",
+        "https://LWroblewski.github.io/birthday-questions/party.2ad9cd2d448ac2421ae0.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://LWroblewski.github.io/birthday-questions/Fragmentcore.a948d28f5f6dc3c00036.otf": "cf08a8c5cda067e5954afbd753bd39da2a676362",
+    "https://LWroblewski.github.io/birthday-questions/assets/fonts/Fragmentcore.otf": "cf08a8c5cda067e5954afbd753bd39da2a676362",
+    "https://LWroblewski.github.io/birthday-questions/assets/fonts/party.ttf": "b00e37092855f045b93343303df6723f528eff02",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://LWroblewski.github.io/birthday-questions/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://LWroblewski.github.io/birthday-questions/assets/pages/pages.json": "8f38d32efa00c67ed70f223dcbd7b86a8f153ebe",
+    "https://LWroblewski.github.io/birthday-questions/assets/pictures/dementor.png": "6f79dd77cff2759ed36631ba0a3d07420a35a09d",
+    "https://LWroblewski.github.io/birthday-questions/assets/pictures/envelop.png": "76ce77ea81b6ee6c884af0b2e28e7c226bb56fd6",
+    "https://LWroblewski.github.io/birthday-questions/assets/pictures/hogwarts.png": "54d7a47a4bac1ebc275f37912b9424d1523ad7d6",
+    "https://LWroblewski.github.io/birthday-questions/assets/pictures/owl.png": "ec35070244b7e11ee749a7ab3a7fb27e88870839",
+    "https://LWroblewski.github.io/birthday-questions/assets/pictures/patronum.png": "2d39f3f1919f0cdd5a1fece0b081710f1313beb8",
+    "https://LWroblewski.github.io/birthday-questions/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
+    "https://LWroblewski.github.io/birthday-questions/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://LWroblewski.github.io/birthday-questions/index.html": "ab2215eb3ad1b10ac177dab6a1d83acabd4af74a",
+    "https://LWroblewski.github.io/birthday-questions/main.98ce4cdc043bedd4e75d.js": "fa8eb5d8825e00b7bd8c082ecbc55100624e0c7d",
+    "https://LWroblewski.github.io/birthday-questions/party.2ad9cd2d448ac2421ae0.ttf": "b00e37092855f045b93343303df6723f528eff02",
+    "https://LWroblewski.github.io/birthday-questions/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
+    "https://LWroblewski.github.io/birthday-questions/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://LWroblewski.github.io/birthday-questions/styles.ed2421851758fb3c03a3.css": "ca0e443c53a7e3d3614027852916e3ef13c2fec9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

@@ -204,6 +204,31 @@
     ]
   },
   {
+    "index": "jacques-run",
+    "title": "Confrontation",
+    "text": [
+      "N'écoutant que tes plus bas instincts, tu te jettes dans une course éperdue pour fuir la menace qui se précise....",
+      "Mais peine perdue, tu tombes lourdement à genoux, submergé par une vague incontrôlable de désespoir et de tristesse, comme si toutes les douleurs et les peines vécues se rappelaient à ton bon souvenir.",
+      "Finalement, tu redresses difficilement la tête, pour te retrouver nez à nez avec une longue silhouette drapée.",
+      "Celle-ci flotte négligemment au-dessus de toi, et ce qui semble être son visage s'approche de toi...",
+      "A la place de la bouche, un orifice insondable semble prêt à t'engloutir tout entier..."
+    ],
+    "picture": {
+      "path": "dementor.png",
+      "width": 80
+    },
+    "question": "Que faire?",
+    "answers": [
+      {
+        "label": "Brandir le bracelet",
+        "redirect": "dementor-bracelet"
+      }, {
+        "label": "Coup de poing",
+        "redirect": "dementor-fight"
+      }
+    ]
+  },
+  {
     "index": "jacques-help",
     "title": "Confrontation",
     "text": [
@@ -225,6 +250,26 @@
       }, {
         "label": "Coup de poing",
         "redirect": "dementor-fight"
+      }
+    ]
+  },
+  {
+    "index": "dementor-fight",
+    "title": "Patronum",
+    "text": [
+      "Alors que la figure encapuchonnée s'approche de toi, tu armes ton poing, prêt à frapper de toute l'énergie de ton désespoir...",
+      "... Quand soudainement, le bracelet que Jacques t'avait donné se met à rayonner d'une lueur aveuglante.",
+      "L'effet est saisissant : au contact de la créature décharnée, le bracelet se met à luire intensément, comme s'il reconnaissait l'abjecte créature et agissait de son propre gré.",
+      "Du bracelet émerge alors une silhouette translucide, qui n'est pas sans te rappeler l'apparence d'uun chat, Plume même plus précisement."
+    ],
+    "picture": {
+      "path": "patronum.png",
+      "width": 120
+    },
+    "answers": [
+      {
+        "label": "Continuer",
+        "redirect": "dementor-bracelet-bis"
       }
     ]
   },
